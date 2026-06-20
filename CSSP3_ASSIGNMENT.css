@@ -1,0 +1,27 @@
+#outer{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+.inner{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+}
+#id1{
+    background-color: red;
+}
+#id2{
+    background-color: #ffff00;
+}
+#id3{
+    background-color: #00ff00;
+}
+
+div{
+    display: in;
+}

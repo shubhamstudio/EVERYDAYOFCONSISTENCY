@@ -1,0 +1,39 @@
+div{
+    height: 200px;
+    width: 400px;
+    padding: 10px;
+    border-color: black;
+    border-style: solid;
+}
+/* h1{
+    border-width: 4px;
+    border-color: black;
+    border-style: dotted;
+} */
+
+/* known as shorthand to add border */
+ h1{
+    border: solid rgb(255, 0, 0);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding-left: 30px;
+ }
+ /* To control the individual side of box */
+ div{
+    border-left-color: blue;
+    border-right-color: blue;
+    border-left-style: solid;
+    border-top: solid; 
+    border-radius: 5px;
+    margin: 20px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 50px;
+ }
+ button{
+    border: 2px solid black;
+    border-radius: 10px;
+    /* padding-left: 25px;
+    padding-right: 25px; */
+    padding: 0px 10px 0px 10px;
+    background-color: teal ;
+ }

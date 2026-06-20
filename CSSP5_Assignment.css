@@ -1,0 +1,41 @@
+#outer{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    font-size: 40px;
+    border: 2px solid black;
+    border-radius: 15%;
+    text-align: center;
+}
+
+#nav{
+    height: 50px;
+    width: 900px;
+    background-color: pink;
+    border: 2px solid lightseagreen;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.option{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    border-radius: 10px;
+    margin-left: 10px;
+    line-height: 50px;
+}

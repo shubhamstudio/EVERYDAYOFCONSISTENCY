@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    color: #227fb1;
+    text-decoration: wavy underline;
+    text-decoration-color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+    letter-spacing: 5px;
+}
+a{
+    text-decoration: none;
+    font-weight: bolder;
+ }
+h2{
+    font-weight: bolder;
+    color:blueviolet;
+
+}
+p{
+    text-align: justify;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-family: arial;
+}
+h3{
+    font-weight: normal; /* Normal = 400, Bold=700*/ 
+    text-align: left;
+    color: magenta;
+}

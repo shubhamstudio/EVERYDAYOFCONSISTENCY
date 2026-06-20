@@ -1,0 +1,30 @@
+*{
+    text-align: center;
+}
+h1,h3{
+    font-family: Georgia;
+}
+/* #id1,#id2,#id3{
+    color: white;
+    background-color: cornflowerblue;
+    } */
+    div button{
+    background-color: purple;
+    color: azure;
+}
+h1::first-letter{
+    color: rgb(255, 0, 0);
+}
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+p:nth-of-type(2n+1){
+    background-color: rgb(255, 0, 0);
+}
+#mainTopic{
+    color: blue;
+}
+#yes:checked + label{
+    color: darkgreen;
+}

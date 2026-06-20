@@ -1,0 +1,104 @@
+/* Universal Selector */
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Element Seclector */
+h1,h3{
+    color: #b92b27;
+}
+
+/* id selector */
+#login, #signup{
+    background-color: #b92b27;
+    color: white;
+}
+
+/* Descendant Selector*/
+.post a{
+    color:rgb(221, 155, 0);
+    text-decoration: none;
+    font-size: 20px;
+}
+nav ul li a{
+    color: hotpink;
+}
+.upvote{
+    background-color: green;
+    color: white;
+}
+
+/* Adjacent Sibling Combinator */
+.upvote+button{
+    color: white;
+    background-color: cornflowerblue;
+}
+p+h3{
+    color: red;
+    text-decoration: none;
+}
+
+/*Child Combinator*/
+div > input{
+    background-color: #f2a8a6;
+}
+input[type="text"]{
+    color: rgb(255, 0, 0);
+}
+input[type="password"]{
+    color: black;
+}
+input[type]{
+    background-color: white;
+}
+
+/* .myclass{
+    color: #b92b27;
+} */
+div[id="myclass"] p {
+    color: rgb(10, 141, 97);
+}
+
+/*hover works when we hover 
+our cursor to that specific element*/
+button:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+h3:hover{
+    text-decoration: underline;
+}
+
+/*Active works on clicking the element*/
+p:active{
+    font-weight: bolder;
+}
+button:active{
+    background-color: black;
+    color: white;
+}
+
+input[type="radio"]:checked + label{
+    font-weight: bold;
+    color:#b92b27;
+}
+/*works for multiple properties of same type*/
+div:nth-of-type(2n){
+    background-color: rgb(168, 153, 93);
+}
+/* pseudo elements*/
+h1::first-letter{
+    color:#000000;
+    font-style: italic;
+}
+p::first-line{
+    color: rgb(12, 203, 50);
+}
+p::selection{
+    color:rgb(255, 255, 255);
+    background-color: green;
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
+}

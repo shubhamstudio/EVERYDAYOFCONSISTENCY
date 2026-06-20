@@ -1,0 +1,18 @@
+/* h1{
+    color:rgb(150, 0, 120);
+}
+p{
+    color: #ff00ff;
+    background-color: #000;
+}
+button{
+    color: white;
+    background-color: blue;
+} */
+
+h1{
+    /* color: #aa11ff; */
+    /* color: #ffff00; for yellow*/ 
+    color: #00ffff; /*for aqua*/
+    background-color: #000;
+}

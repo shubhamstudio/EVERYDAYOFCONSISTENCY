@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - L3</title>
+</head>
+<body>
+
+<thead>
+    <table border="black">
+        <caption>Food Menu</caption>
+        <tr>
+            <th rowspan="2">Item</th>
+            <th colspan="2">Price</th>
+        </tr>
+        <tr>
+            <th>INR</th>
+            <th>USD</th>
+        </tr>
+</thead>
+<tbody>
+        <tr>
+                <td>Frooti</td>
+                <td>10 </td>
+                <td>0.14</td>
+        </tr>
+        <tr>
+                <td>Samosa</td>
+                <td>12</td>
+                <td>0.17</td>
+        </tr>
+        <tr>
+                <td>Chips</td>
+                <td>20</td>
+                <td>0.28</td>
+        </tr>
+</tbody>
+<tfoot>
+    <tr>
+        <td>SUM</td>
+        <td>42</td>
+        <td>.59</td>
+    </tr>
+</tfoot>
+    </table>
+
+    <table border="black">
+        <caption>A test table with merged cells</caption>
+        <tr>
+            <td rowspan="2"> </td>
+            <td colspan="2">Average</td>
+            <td rowspan="2">Red eyes</td>
+        </tr>
+        <tr>
+            <td>Height</td>
+            <td>Weight</td>
+        </tr>
+        <tr>
+        <td>Males</td>
+        <td>1.9</td>
+        <td>0.003</td>
+        <td>40%</td>
+        </tr>
+        <tr>
+        <td>Females</td>
+        <td>1.7</td>
+        <td>0.002</td>
+        <td>43%</td>
+        </tr>
+    </table>
+
+    <br>
+    <h4>Choose Your Profession</h4>
+    <!-- DropDowns in HTML -->
+     <!-- Select element -->
+
+
+     <form action="server?">
+      <select name="profession" id="profession" action="server?">
+        <option value="dev">DEVELOPER</option>
+        <option value="stu">STUDENT</option>
+      </select>
+      <select name="gender" id="gender">
+        <option >Select your Gender</option>
+        <option value="gen">Male</option>
+        <option value="gen">Female</option>
+      </select>
+      <button type="submit" >SUBMIT </button>
+    <div>
+      <label for="pet">Choose a pet</label>
+      <select name="pets" id="pet_select">
+        <option>Select Your Pet</option>
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="parrot">Parrot</option>
+        <option value="fish">Goldfish</option>
+      </select> 
+    </div>
+    <label for="vol">Select Your Volume Level</label>
+    <input type="range" id="vol" name="vol" min="0" max="100" step="10"/>
+    <button type="submit">Submit</button>
+    <br>
+    <label for="txt_ar">Please give your valuable feedback</label>
+    <textarea id="feedback" name="feedback" placeholder="write your feedback here"></textarea>
+    </form>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
