@@ -3,6 +3,7 @@ for(btn of btns){
 
     btn.addEventListener("click", sayHello);
     btn.addEventListener("click", sayName);
+    // btn.addEventListener("dblclick", sayName); double click
 };
 
 function sayName(){
