@@ -17,12 +17,25 @@ btn.addEventListener("click", function(){
     inp.value = "";
 });
 
-let dltBtns = document.querySelectorAll(".delete");
+ul.addEventListener("click", function(event){
+    if (event.target.nodeName == "BUTTON"){
+       let listItem = event.target.parentElement;
+    //    console.log(listItem);
+    listItem.remove(); //deleted
+    console.log("deleted")
+    }
+})
 
-for(dltBtn of dltBtns){
-    dltBtn.addEventListener("click", function(){
-        let par = this.parentElement;
-        console.log(par);   
-        par.remove();
-    });
-}
+
+
+
+
+// let dltBtns = document.querySelectorAll(".delete");
+
+// for(dltBtn of dltBtns){
+//     dltBtn.addEventListener("click", function(){
+//         let par = this.parentElement;
+//         console.log(par);   
+//         par.remove();
+//     });
+// }
