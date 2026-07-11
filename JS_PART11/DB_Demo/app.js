@@ -14,7 +14,6 @@ savetoDb(
     savetoDb(
       "Hello",
       () => {
-        // success msg
         console.log("success 2: data2 saved");
         savetoDb(
           "Game Changer",
