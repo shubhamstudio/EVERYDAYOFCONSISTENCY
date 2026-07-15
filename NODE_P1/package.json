@@ -1,0 +1,12 @@
+{
+  "name": "node_p1",
+  "version": "1.0.0",
+  "description": "\"Backend demo\"",
+  "license": "ISC",
+  "author": "Shubham Bisht",
+  "type": "module",
+  "main": "math.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
